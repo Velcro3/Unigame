@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Unigame.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Unigame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Padding="20">
+        <StackPanel>
+            <TextBlock Style="{ThemeResource TitleTextBlockStyle}" Margin="0,0,0,20">About Unigame</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Unigame is a game launcher, designed with WinUI 3 to intergrate seamlessly with your existing games. Think Steam, Epic, EA, and if you're a developer, any launcher you want!
+                Unigame is open source, and wouldn't be possible without the devs kind enough to help fix bugs, add features, and test the app.
+                It was only possible thanks to other launchers, like Playnite and Lutris, which inspired the design and functionality of Unigame.
+                If you want to contribute, you can find the source code on GitHub at <Hyperlink NavigateUri=""></Hyperlink>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
